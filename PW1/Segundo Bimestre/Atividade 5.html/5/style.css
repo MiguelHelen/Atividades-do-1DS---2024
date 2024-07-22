@@ -1,0 +1,52 @@
+body{ 
+    background-color: navy;
+
+}
+
+h1.p1 {
+    border-bottom: dotted red;
+    font-family: Monaco;
+    color: white;
+
+}
+
+p.t1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    border-style: solid;
+    border-top: 1px solid;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    width: 1000px;
+    height: 200px;
+    padding: 20px;
+}
+
+h1.p2 {
+    border-bottom: double blue;
+    color: yellow;
+    font-family: monaco;
+
+}
+
+p.t2 {
+    font-family: #ccc;
+    background-color: black;
+    color: white;
+    border-style: solid;
+    border-top: 1px solid;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    width: 1000px;
+    height: 200px;
+    padding: 20px;
+    
+
+
+
+
+
+
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encomendas</title>
+</head>
+<body>
+   <header>
+    <h1> Pães Doces e Bolos</h1>
+    <ul> 
+   <li> <a href="Index.html" target="_blank">Página Principal</a></li>
+   <li> <a href="Encomedar Bolo.html">Encomendar Bolo</a></li> 
+    </ul>
+   </header> 
+   <main>
+<h2>Encomendar Bolo</h2>
+   
+<form name="Nome" method="get" id="Formulário">
+    <label>Nome:</label>
+    <input type="text" placeholder="Informe o nome"  name="nome" id="nome" maxlength="35" cols="40">
+
+    <label>DDD (</label>
+    <input type="text" placeholder="DDD" name="DDD" id="DDD" maxlength="2"> )
+
+    <label>Telefone:</label>
+    <input type="text" placeholder="Telefone" name="Telefone" id="Telefone" maxlength="10"></br>
+</br>
+
+ <table border="2">
+    <caption colspan="3">Bolos</caption>
+    <tr>
+<th><img src="images/Bolo01.png" alt="Bolo de Chocolate" height="200"></th>
+<th><img src="images/Bolo02.png" alt="Bolo de Frutas" height="200"></th>
+<th><img src="images/Bolo03.png" alt="Bolo Misto" height="200"></th>
+    </tr>
+    <tr>
+<th>Chocolate</th>
+<th>Frutas</th>
+<th>Misto</th>
+    </tr>
+    </table></br>
+</br>
+    <label>Sabor:</label>
+    <select name="Sabor" id="Sabor">
+<option selected disabled value="">Escolha...</option>
+<option>Chocolate</option>
+<option>Frutas</option>
+<option>Misto</option>
+    </select>
+    <label>Tipo:</label>
+    <label>
+    <input type="radio" name="Tipo" id="Tipo">Simples
+    </label>
+    <label>
+    <input type="radio" name="Tipo" id="Tipo">Decorado
+    </label></br>
+</br>
+    <label>Tamanho:</label>
+    <input type="number" name="Tamanho" id="Tamanho" maxlength="10"> <label>Kg</label>   
+    
+    <input type="checkbox" name="Tamanho" id="Tamanho">Diet?</br>
+</br>
+    <label>Observações:</label></br>
+     <textarea rows="3" cols="80" placeholder="Observações sobre o Pedido"></textarea></br>
+</br>
+     <button type="submit">Enviar Pedido</button>
+     <button type="reset">Limpar</button>
+
+
+
+
+
+
+
+
+
+
+
+
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+   </main>
+</body>
+</html>

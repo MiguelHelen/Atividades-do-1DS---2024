@@ -1,0 +1,22 @@
+
+body{
+    background-color: gray;
+    margin-right: 10px;
+    margin-top: 10px;
+            }
+    p.p1{
+        background-color: #FFFF99;
+        margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10%;
+    }
+    p.p2{
+        background-color: #66CCFF;
+        margin-left: 30%;
+        border-style: dotted;
+        margin-right: 10px;
+    }
+    p.p3{
+        background-color: #99FF66;
+        margin-right: 10px;
+        margin-left: 60%; }
