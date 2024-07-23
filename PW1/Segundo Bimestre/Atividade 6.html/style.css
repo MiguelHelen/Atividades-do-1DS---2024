@@ -1,0 +1,123 @@
+
+
+div{
+    float: right;
+    width: 70%;
+    height: 100px;
+ }
+
+ body{
+background-color: brown;
+
+ }
+
+
+
+
+ h1{
+border : dotted 2px #ffffffff;
+padding-top: 2px;
+padding-left: 30px;
+padding-right: 30px;
+padding-bottom: 2px; 
+color: whitesmoke;
+font-style: italic;
+font-size: 50px;
+text-align: center;
+
+ 
+
+ }
+
+
+td {
+  border: dashed 5px indianred; 
+
+}
+
+.exemplo:hover{
+transform: rotate(5deg);
+border: double 5px gold;
+
+
+
+
+}
+
+
+
+
+
+
+h3{
+ background-image: url("Capas/vinho.jpg"); 
+ opacity: 0.9;
+ text-align: center; 
+ color: white; 
+font-size: 40px;
+
+
+
+
+
+
+
+
+
+}
+
+aside{
+
+ width: 30%;
+ top: 0px;
+ right: 0px;
+ bottom: 0px;
+ background-image: url("Capas/branco.jpg") red; 
+ float:left;
+ 
+
+}
+
+h3.h1{
+ background-image: url(Capas/fundo.jpg);  
+ color: brown;
+ text-align: center;
+ font-size: 40px; 
+opacity: 0.95;
+}
+
+ dt{
+ color: lightgrey;
+ font-weight: bold;
+ font-size: 30px;
+ line-height: 35px;
+ text-align: left; 
+ text-transform: capitalize #ffff00; 
+ 
+
+
+
+
+ }
+
+span{
+color: gold;
+text-decoration: underline;
+
+
+}
+
+.exemplo2:hover {
+
+background-color: crimson;
+color: lightpink; 
+border: lightpink; 
+
+
+}
+
+.exemplo3:hover {
+
+color: indianred;
+
+}

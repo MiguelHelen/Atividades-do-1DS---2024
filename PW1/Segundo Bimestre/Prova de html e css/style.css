@@ -1,0 +1,33 @@
+main{
+
+    background-image: url(https://img.freepik.com/fotos-gratis/cenario-texturizado-de-parede-de-concreto-solido-pintado_53876-108232.jpg);
+} 
+
+td {
+
+    color: gold; 
+    font-size: 30px; 
+    border: 5px dotted red; 
+}
+
+header {
+
+    color: red; 
+    font-size: 70px;
+    text-align: center;
+} 
+
+h1 {
+
+    color: blue; 
+     font-size: 50px; 
+     text-align: center;
+}
+
+footer{
+
+    text-align: right;
+    color:black; 
+    
+    
+}
