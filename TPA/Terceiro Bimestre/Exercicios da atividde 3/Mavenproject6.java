@@ -32,7 +32,7 @@ public class Main {
         }
         
         else if(i >= 14 && i <= 17){
-        System.out.print("Infantil B");
+        System.out.print("Juvenil B");
         }
         
         else if(i >= 18) {
