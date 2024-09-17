@@ -11,7 +11,7 @@ public class Main {
 		
 		double mod;
 		
-		for(int i = 0; i < 4000; i++ ) {
+		for(int i = 5; i < 3999; i++ ) {
 			
 			mod = i % 2;
 			
