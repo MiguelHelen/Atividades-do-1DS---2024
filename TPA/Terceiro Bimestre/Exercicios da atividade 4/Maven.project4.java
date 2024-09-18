@@ -8,34 +8,23 @@ public class Main {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.print("Valor Inicial:");
-		int vi = sc.nextInt();
-		
-		System.out.print("Valor Final:");
-		int vf = sc.nextInt();
-		
-		int sub = vf - vi;  
-		int somaSub1 = 0;
-		
-		
-		for(int i =1; i<= sub; i++) {
-			
-			int sub1 = sub -i;
-			
-			int mod = sub1 % 2;
-			
-			
-			if(mod != 0) {
-					
-				
-				somaSub1 += sub1;
-				
-			}
-			
-		
-		}
-		
-		System.out.println(somaSub1);
+		System.out.print("Digite o valor inicial: ");
+        int vi = sc.nextInt();
+        
+        // Solicita o valor final
+        System.out.print("Digite o valor final: ");
+        int vf = sc.nextInt();
+        
+       
+        int zero = 0;
+
+        
+        for (int i = vi; i <= vf; i++) {
+            if (i % 2 != 0) {  
+                zero+= i;
+            }
+        }
+        System.out.println("A soma dos números ímpares é: " + zero);
 
 	}
 

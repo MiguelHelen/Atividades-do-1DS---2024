@@ -9,7 +9,7 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		
 		
-		int menos = -2;
+		int menos = 0;
 		
 		
 		for(int i = 4000; i < 6000; i++) {
