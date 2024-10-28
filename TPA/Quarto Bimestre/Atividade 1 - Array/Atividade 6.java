@@ -16,7 +16,7 @@ public class Main {
     
      Scanner sc = new Scanner(System.in);
         
-  int[] numeros = new int[5];
+  int[] numeros = new int[100];
   
    System.out.println("Digite 100 Números");
 
